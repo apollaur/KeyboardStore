@@ -1,0 +1,72 @@
+html, body{
+  font-size: 80%;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.10em;
+  background-color: #efefef;
+}
+
+#page{
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border: 4px solid #4a2c2a;
+  background-color: #EFDACD;
+}
+
+#logo{
+  width: 150px;
+  margin: 10px auto 25px auto;
+}
+
+.logo{
+  max-height: 175px;
+  max-width: 175px;
+}
+ul{
+  width: 570px;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-top: 2px solid #4a2c2a;
+  border-bottom: 2px solid #4a2c2a;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  margin: 0px 3px;
+}
+
+ul li a{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.keys{
+  max-width: 550px;
+  max-height: 300px;
+}
+
+p{
+  text-align: center;
+  width: 600px;
+  margin: 20px auto 20px auto;
+  font-weight: normal;
+}
+
+.description{
+  font-size: 15px;
+}
+
+a{
+  color: #231709;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on{
+  color: white;
+  background-color: #795C34;
+}
